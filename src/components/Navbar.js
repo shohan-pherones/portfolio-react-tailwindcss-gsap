@@ -12,19 +12,19 @@ const Navbar = () => {
         <Link to="/" className="link-item">
           Home
         </Link>
-        <HashLink to="#about" className="link-item">
+        <HashLink smooth to="#about" className="link-item">
           About
         </HashLink>
-        <HashLink to="#skills" className="link-item">
+        <HashLink smooth to="#skills" className="link-item">
           Skills
         </HashLink>
-        <HashLink to="#projects" className="link-item">
+        <HashLink smooth to="#projects" className="link-item">
           Projects
         </HashLink>
         <Link to="/blogs" className="link-item">
           Blogs
         </Link>
-        <HashLink to="#contact" className="link-item">
+        <HashLink smooth to="#contact" className="link-item">
           Contact
         </HashLink>
       </div>

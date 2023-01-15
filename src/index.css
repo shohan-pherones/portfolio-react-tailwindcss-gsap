@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+img {
+  -webkit-user-drag: none;
+}
+
 .link-item {
   position: relative;
 }
@@ -22,4 +26,18 @@
 
 .link-item:hover::after {
   width: 100%;
+}
+
+.section-title {
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  width: 20%;
+  height: 2px;
+  background-color: #06b6d4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
